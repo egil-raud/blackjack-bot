@@ -8,4 +8,5 @@
    ```bash
    git clone https://github.com/Egil_Raud/blackjack-bot.git
    cd blackjack-bot
+   
 2. Создайте .evn на основе .evn.example
