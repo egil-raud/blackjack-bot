@@ -1,7 +1,2 @@
-
-
-### Пример `requirements.txt`:
-
-plaintext
 python-telegram-bot
 python-dotenv

@@ -7,7 +7,7 @@ from config import TOKEN  # Импортируем токен из config.py
 # Константы
 START_BALANCE = 1000  # Начальный баланс для новых пользователей
 DATABASE_NAME = "blackjack.db"  # Имя файла базы данных
-
+print(f"Токен: {TOKEN}")
 # Глобальные переменные
 games = {}  # Состояние игры для каждого чата
 
@@ -205,6 +205,7 @@ def main():
     application.add_handler(CommandHandler("hit", hit))
     application.add_handler(CommandHandler("stand", stand))
     application.add_handler(CommandHandler("balance", balance))
+
 
     # Запускаем бота
     application.run_polling()
