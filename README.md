@@ -7,4 +7,4 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/Egil_Raud/blackjack-bot.git
-   cd ваш-репозиторий
+   cd blackjack-bot
